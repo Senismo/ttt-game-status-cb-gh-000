@@ -35,5 +35,8 @@ def won?(board)
       end
     end
   end
+end
 
+def full?(board)
+  board.any?{|position| position != " "}
 end
